@@ -8,7 +8,7 @@ No Redis connection or prereqs needed, just run the following:
 2. `npm run build`
 3. `npm run start`
 
-Displays error:
+Fails at `app.route(basePath, bullBoardRouter)` with:
 ```
 TypeError: Cannot read private member #errorHandler from an object whose class did not declare it
     at file:///home/steve/apps/bull-board-issue-843-example/node_modules/hono/dist/hono-base.js:91:15

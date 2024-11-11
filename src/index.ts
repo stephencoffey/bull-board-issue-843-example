@@ -73,7 +73,7 @@ const run = async () => {
   bullBoardHonoAdapter.setBasePath(basePath);
 
   const bullBoardRouter = bullBoardHonoAdapter.registerPlugin();
-  app.route(basePath, bullBoardRouter);
+  c
 
   app.get('/add', async (c: Context) => {
     await testBullMq.add('Add', { title: c.req.query('title') });
