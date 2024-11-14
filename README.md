@@ -24,4 +24,7 @@ TypeError: Cannot read private member #errorHandler from an object whose class d
 2. `npm run build`
 3. `npm run start`
 
+# Update 14 Nov 2024:
+Confirmed as fixed in yesterdays release of Hono 4.6.10
+
 
